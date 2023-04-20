@@ -7,6 +7,8 @@ import { FooterComponent } from './footer/footer.component';
 import { DirectivaComponent } from './directiva_ngfor/directiva.component';
 import { ClientesComponent } from './clientes/clientes.component';
 import { ClientesJsonExternoComponent } from './clientes-json-externo/clientes-json-externo.component';
+import { ClientesServicioComponent } from './clientes-servicio/clientes-servicio.component';
+import { ClienteService } from './clientes-servicio/cliente.service';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,13 @@ import { ClientesJsonExternoComponent } from './clientes-json-externo/clientes-j
     FooterComponent,
     DirectivaComponent,
     ClientesComponent,
-    ClientesJsonExternoComponent
+    ClientesJsonExternoComponent,
+    ClientesServicioComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ClienteService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
