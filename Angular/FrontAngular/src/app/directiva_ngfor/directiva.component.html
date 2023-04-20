@@ -1,0 +1,18 @@
+
+<!--Cambiar el valor booleano de forma directa de la variable habilitar a partir de un botón usando un if ternario, así como el texto
+<button type="button" (click)="habilitar = (habilitar == true)?false : true" class="btn btn-primary my-3"> {{ habilitar == true? 'Ocultar' : 'Mostrar' }}</button>
+-->
+
+<!--Cambiar el valor booleano de la variable habilitar a partir de una función -->
+<button type="button" (click)="setHabilitar()" class="btn btn-primary my-3"> {{ habilitar == true? 'Ocultar' : 'Mostrar' }}</button>
+
+<div class="card">
+  <div class="card-header">
+    Listado de lenguajes
+  </div>
+  <!--ngIf sirve para comparar el valor de una variable, en este caso, si la variable habilitar es true, entonces se muestra el componente-->
+  <ul class="list-group" *ngIf="habilitar == true">
+    <!--ngFor sirve para listar los elementos de un arreglo, en este caso, a cada elemento se le asigna el nombre curso el arreglo es la variable listaCurso (parecido a un foreach)-->
+    <li class="list-group-item" *ngFor="let curso of listaCurso"> {{ curso }} </li>
+  </ul>
+</div>
