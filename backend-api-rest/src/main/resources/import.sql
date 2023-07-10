@@ -1,0 +1,10 @@
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Diego", "Hernandez", "diego@gmail.com", "2023-04-24");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Inary", "Olguin", "inary@gmail.com", "2023-04-23");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Paola", "Hernandez", "paola@gmail.com", "2023-04-22");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Osmany", "Olguin", "osmany@gmail.com", "2023-04-21");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Alejandro", "Ramirez", "alejandro@gmail.com", "2023-04-20");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Antonio", "Cote", "antonio@gmail.com", "2023-04-19");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Silvia", "Guadarrama", "silvia@gmail.com", "2023-04-18");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Leonardo", "Hernandez", "leonardo@gmail.com", "2023-04-17");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Patricia", "Cote", "diego@gmail.com", "2023-04-16");
+INSERT INTO clientes (nombre, apellido, email, create_at) VALUES("Sofia", "Heredia", "diego@gmail.com", "2023-04-15");
